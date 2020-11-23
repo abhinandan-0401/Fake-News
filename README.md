@@ -39,6 +39,7 @@ Four parameters can be specified in the bash script
 Classification Report showing Precision, Recall and f1-score for each class
 
 | Labels/Mechanism | Precision | Recall | F1-score | Support |
+|---|---|---|---|---|
 |__0__|0.71|0.99|0.83|10387|
 |__1__|0.99|0.59|0.74|10413|
 |Accuracy|---|---|0.79|20800|
