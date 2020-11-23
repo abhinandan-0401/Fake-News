@@ -26,7 +26,6 @@ The results will be saved in the `models` folder with corresponding model id (_T
 Four parameters can be specified in the bash script
 
 --preprocess=1 --retrain=0 --predict=0 --prevId='TomTom_2020_11_20_15_51_32' --train='/tomtom/data/train.csv' --test='/tomtom/data/test.csv' --outpath='/tomtom/data/'
-
 + `preprocess`: flag variable for preprocessing
 + `retrain`: flag variable for re-training
 + `predict`: flag variable for predictions
@@ -39,11 +38,9 @@ Four parameters can be specified in the bash script
 
 Classification Report showing Precision, Recall and f1-score for each class
 
-              precision    recall  f1-score   support
-
-           0       0.71      0.99      0.83     10387
-           1       0.99      0.59      0.74     10413
-
-    accuracy                           0.79     20800
-   macro avg       0.85      0.79      0.78     20800
-weighted avg       0.85      0.79      0.78     20800
+|---|precision|recall|f1-score|support|
+|0|0.71|0.99|0.83|10387|
+|1|0.99|0.59|0.74|10413|
+|accuracy|---|---|0.79|20800|
+|macro avg|0.85|0.79|0.78|20800|
+|weighted avg|0.85|0.79|0.78|20800|
