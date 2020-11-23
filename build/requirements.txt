@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+stop_words
+tensorflow_hub
+keras
+tensorflow
+language_detector
+sklearn
+symspellpy
+sentence-transformers
+nltk

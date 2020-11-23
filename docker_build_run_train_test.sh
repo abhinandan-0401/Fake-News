@@ -1,0 +1,2 @@
+docker build . -t tomtom:1.0
+docker run --rm -v $(pwd):/tomtom tomtom:1.0 --preprocess=0 --retrain=0 --predict=0 --prevId='TomTom_2020_11_22_05_31_20' --train='/tomtom/data/processed_train.csv' --test='/tomtom/data/processed_test.csv' --outpath='/tomtom/data/'
