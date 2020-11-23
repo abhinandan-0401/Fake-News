@@ -45,9 +45,3 @@ Classification Report showing Precision, Recall and f1-score for each class
 |Accuracy|---|---|0.79|20800|
 |macro avg|0.85|0.79|0.78|20800|
 |weighted avg|0.85|0.79|0.78|20800|
-
-| Metric\Method | TF-IDF + Clustering | LDA | BERT + Clustering | LDA_BERT + Clustering |
-|---|---|---|---|---|
-|C_Umass|__-2.161__|-5.233|-4.368|-3.394|
-|CV|0.538|0.482|0.547|__0.551__|
-|Silhouette score|0.025|/|0.063|__0.234__|
