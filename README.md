@@ -36,6 +36,9 @@ Four parameters can be specified in the bash script
 
 ## Result
 
+Training History
+![Train_history](./models/Training_History_TomTom_2020_11_22_09_15_42.png)
+
 Classification Report showing Precision, Recall and f1-score for each class
 
 | Labels/Mechanism | Precision | Recall | F1-score | Support |
