@@ -38,9 +38,15 @@ Four parameters can be specified in the bash script
 
 Classification Report showing Precision, Recall and f1-score for each class
 
-|---|precision|recall|f1-score|support|
-|0|0.71|0.99|0.83|10387|
-|1|0.99|0.59|0.74|10413|
-|accuracy|---|---|0.79|20800|
+| Labels/Mechanism | Precision | Recall | F1-score | Support |
+|__0__|0.71|0.99|0.83|10387|
+|__1__|0.99|0.59|0.74|10413|
+|Accuracy|---|---|0.79|20800|
 |macro avg|0.85|0.79|0.78|20800|
 |weighted avg|0.85|0.79|0.78|20800|
+
+| Metric\Method | TF-IDF + Clustering | LDA | BERT + Clustering | LDA_BERT + Clustering |
+|---|---|---|---|---|
+|C_Umass|__-2.161__|-5.233|-4.368|-3.394|
+|CV|0.538|0.482|0.547|__0.551__|
+|Silhouette score|0.025|/|0.063|__0.234__|
